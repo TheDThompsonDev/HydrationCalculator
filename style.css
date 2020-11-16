@@ -1,0 +1,41 @@
+body{
+    display:flex;
+    justify-content:center;
+    background: rgb(4,82,128);
+    background: linear-gradient(90deg, rgba(4,82,128,1) 5%, rgba(30,105,203,1) 32%, rgba(0,212,255,1) 100%);
+    color:#fcba03;
+    font-family:sans-serif;
+  }
+  .container{
+    background:rgba(0,0,0,0.6);
+    margin-top: 100px;
+    padding: 60px;0
+  }
+  
+  h1{
+    display:flex;
+    justify-content:center;
+  }
+  p{
+    display:flex;
+    justify-content:center;
+    text-align:center;
+    font-size:1.5rem;
+    color:#fff;
+  }
+  label{
+    color:#fff;
+    margin-right:10px;
+    font-size: 2rem;
+  }
+  .calculate{
+    display:flex;
+    justify-content:center;
+    padding:10px;
+  }
+  button{
+    margin-left:10px;
+  }
+  input{
+    width:10%;
+  }
