@@ -1,31 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-
-    <title>Document</title>
-</head>
-
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Hydration Calculator</title>
+  </head>
+  <body>
     <div class="container">
 
-        <h1>HYDRATION CALCULATOR</h1>
-        <p>I drink 0.5 Liters per hour of exercise,<br /> this will output how much water I should drink!</p>
+      <div class="calculator">
+        <h1>Hydration Calculator</h1>
+        <p>I drink 0.5 liter of water per hour of exercise</p>
+
         <div class="calculate">
-            <label for="hours">Enter The Hours</label>
-            <input type="number" value="0" id="time">
+          <label for="hour">Enter The Hours</label>
+
+          <input type="number" value="0" id="time" />
+          <div>
             <button id="calculate">Calculate</button>
-
+          </div>
         </div>
-        <p id="theAnswer">The amount of liters are: <span id="correctAnswer">0</span></p>
+        <p id="theAnswer">
+          The amount of liters are: <span id="correctAnswer">0</span>
+        </p>
+      </div>
+
 
     </div>
-
-    </div>
-    <script src="app.js"></script>
-</body>
-
+  </body>
+  <script src="app.js"></script>
 </html>
